@@ -1,0 +1,23 @@
+.title {
+  position: fixed;
+  left: 50%;
+
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 50px;
+  padding-top: 0.67em;
+  padding-bottom: 0.67em;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 4em;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+
+  transform: translate(-50%, 0);
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 3em;
+  }
+}
